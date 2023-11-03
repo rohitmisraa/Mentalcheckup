@@ -7,6 +7,8 @@ var questions = ["I find it difficult finishing a task or project", "If a task o
 "I am often irritable, with a short fuse",
 "I have mood swings, sometimes feeling quite high, other times low",
 "I often miss what is being said to me in conversations"]
+// var questions = ["I find it difficult finishing a task or project", "If a task or project requires a lot of thought I will often delay in getting it started", 
+// "I find it difficult to sit still and often fidget or squirm"]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];
@@ -84,31 +86,39 @@ function changestep() {
     }
 }
 
-function next() {
+function next(val) {
     if (step < questions.length) {
-        if (document.getElementById('answer-yes').checked) {
-            score = score + 5;
-        }
+        score = score + val;
         step++;
     }else {
+        score = score + val;
         console.log("Finished");
         const message = document.getElementById('result-message');
-        const suggestions = document.getElementById('result-suggest');
+        const progress_perc = document.getElementById('progress_perc');
         const result = document.getElementById('result');
+        const resultSuggest = document.getElementById('result-suggest');
         document.getElementById('qnlist').style.display = "none";
         step1.style.display = "none";
         step2.style.display = "none"; 
-        result.style.display = "block"; 
-        if (score < 15) {
+        result.style.display = "block";
+        var totalScore = questions.length * 8;
+        if (score < 40) {
             // alert("You are sad And everything will be fine!");
-            message.innerText = "Little to Moderate ADHD disorder";
-            suggestions.innerText = "Your Score: " + "("+ score+"/60)";
-
+            message.innerText = "Little to Moderate ADHD disorder : "+ "("+ score+"/"+ totalScore +")";
+            progress_perc.innerText = (score/totalScore)*100;
+            progress_bar.style.width = ((score/totalScore)*100)+"%";
+            // progress_perc.innerText = "Your Score: " + "("+ score+"/"+ totalScore +")";
             
-        }if (score < 50) {
+        }if (score < 65) {
             // alert("You are depressed and you should seek for proffessional guidance");
-            message.innerText = "Moderate to severe ADHD disorder";
-            suggestions.innerText = "Your Score: " + "("+ score+"/60)";
+            message.innerText = "Moderate to severe ADHD disorder: "+ "("+ score+"/"+ totalScore +")";
+            progress_perc.innerText = (score/totalScore)*100;
+            progress_bar.style.width = ((score/totalScore)*100)+"%";
+        }else{
+            message.innerText = "Severe ADHD disorder: "+ "("+ score+"/"+ totalScore +")";
+            progress_perc.innerText = (score/totalScore)*100;
+            progress_bar.style.width = ((score/totalScore)*100)+"%";
+            resultSuggest.innerHTML = "You should consult to specialist Soon as Possible";
         }
         // alert("You are depersed by Score: "+ score);
         
