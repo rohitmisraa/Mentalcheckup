@@ -1,12 +1,5 @@
-var questions = ["I find it difficult finishing a task or project", "If a task or project requires a lot of thought I will often delay in getting it started", 
-"I find it difficult to sit still and often fidget or squirm",
-"I would describe myself as being ‘on the go’ and feel compelled to do things, as if driven by a motor’",
-"I find it hard to remain focused in group settings",
-"My mind feels very cluttered and it is hard for me to concentrate on one thing at a time",
-"I make decisions quickly and fail to think through the consequences",
-"I am often irritable, with a short fuse",
-"I have mood swings, sometimes feeling quite high, other times low",
-"I often miss what is being said to me in conversations"]
+var questions = ["Sometimes I am much more talkative than at other times","I have periods where I feel wired or hyper and am really active","I have periods where I feel really irritable or speeded up","I have had times where I am both depressed and elated at the same time","There are large variations in the quantity and quality of my work depending on my mood","I have periods where I cry a great deal and then at other times I feel really happy and joke or laugh excessively","I have times where I feel really optimistic about life and other times where I feel there is no hope","There are times where I have a lot more interest in sex than at other times","At times I feel really angry and hostil"
+,"I have periods of mental dullness and other periods of very creative thinking","At times I am very sociable and other times I just want to be left alone"]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];

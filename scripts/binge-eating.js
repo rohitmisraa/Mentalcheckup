@@ -1,12 +1,4 @@
-var questions = ["I find it difficult finishing a task or project", "If a task or project requires a lot of thought I will often delay in getting it started", 
-"I find it difficult to sit still and often fidget or squirm",
-"I would describe myself as being ‘on the go’ and feel compelled to do things, as if driven by a motor’",
-"I find it hard to remain focused in group settings",
-"My mind feels very cluttered and it is hard for me to concentrate on one thing at a time",
-"I make decisions quickly and fail to think through the consequences",
-"I am often irritable, with a short fuse",
-"I have mood swings, sometimes feeling quite high, other times low",
-"I often miss what is being said to me in conversations"]
+var questions = ["I feel very self-conscious about my weight and body size-it stops me from socialising","I eat meals much more quickly than others and seems to eat a lot more  than others as well","I feel in control of how much I eat","I often feel desperate that I cannot be more in control of what I eat","when I am bored I can't help but eat, nothing can distract me ","I often eat, even though I am not hungry, because it is a habit","Sometimes I eat because I am 'mouth' hungry but I spit the food out, so I don't put on weight","I have strong feelings of self-hate or guilt if I overeat","It is easy for me to get back on track with diet or healthy eating regime","My life seems to be 'feast' or 'famine' with very little moderation","I often feel uncomfortably full after eating, even to the point of making myself sick"]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];

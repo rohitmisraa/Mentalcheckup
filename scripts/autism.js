@@ -1,12 +1,4 @@
-var questions = ["I find it difficult finishing a task or project", "If a task or project requires a lot of thought I will often delay in getting it started", 
-"I find it difficult to sit still and often fidget or squirm",
-"I would describe myself as being ‘on the go’ and feel compelled to do things, as if driven by a motor’",
-"I find it hard to remain focused in group settings",
-"My mind feels very cluttered and it is hard for me to concentrate on one thing at a time",
-"I make decisions quickly and fail to think through the consequences",
-"I am often irritable, with a short fuse",
-"I have mood swings, sometimes feeling quite high, other times low",
-"I often miss what is being said to me in conversations"]
+var questions = ["I prefer to do things on my own, rather than with others.","I prefer doing things the same way  for instance my morning routine or trip to the supermarket","I find myself becoming strongly absorbed in something even obsessional","I am very sensitive to noise and will wear earplugs or cover my ears in certain situations","Sometimes people say I am being rude, even though I think I am being polite.","I find it easy to imagine what characters from a book might look like.","I find it easy to talk in groups of people","I am more interested in finding out about ‘things’ than people", "I find numbers, dates and strings of information fascinating","I prefer non-fiction books and films to fiction","I find it upsetting if my daily routine is upset or changed","I find it upsetting if my daily routine is upset or changed","It’s difficult for me to understand other people’s facial expression and body language","I don’t have any problems making small talk with new people","I notice very small changes in a person’s appearance","When I was young I used to play lots of ‘let’s pretend’ or imaginary games","When I was young I used to play lots of ‘let’s pretend’ or imaginary games,I like collecting information about things I am interested in","I like meeting new people","People close to me say I talk about the same things repeatedly","I find it easy to work out what people are thinking or feeling just by looking at their facial expressions","New social situations make me feel anxious"]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];

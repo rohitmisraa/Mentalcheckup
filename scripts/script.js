@@ -1,4 +1,4 @@
-var questions = [" Have you been feeling persistent sadness or hopelessness?","Do you experience trouble sleeping or sleeping too much?","Have you had thoughts of self-harm or suicide?"," Have you lost interest in activities you used to enjoy?","Do you find it difficult to concentrate or make decisions?"]
+var questions = ["Have you been feeling persistent sadness or hopelessness?","Do you experience trouble sleeping or sleeping too much?","Have you had thoughts of self-harm or suicide?"," Have you lost interest in activities you used to enjoy?","Do you find it difficult to concentrate or make decisions?"]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];

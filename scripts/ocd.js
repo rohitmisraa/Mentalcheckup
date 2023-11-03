@@ -1,12 +1,4 @@
-var questions = ["I find it difficult finishing a task or project", "If a task or project requires a lot of thought I will often delay in getting it started", 
-"I find it difficult to sit still and often fidget or squirm",
-"I would describe myself as being ‘on the go’ and feel compelled to do things, as if driven by a motor’",
-"I find it hard to remain focused in group settings",
-"My mind feels very cluttered and it is hard for me to concentrate on one thing at a time",
-"I make decisions quickly and fail to think through the consequences",
-"I am often irritable, with a short fuse",
-"I have mood swings, sometimes feeling quite high, other times low",
-"I often miss what is being said to me in conversations"]
+var questions = ["I have saved up so many things that they get in the way.","I check things more often than necessary.","I get upset if objects are not arranged properly.","I feel compelled to count while I am doing things.","I find it difficult to touch an object when I know it has been touched by strangers or certain people.","I find it difficult to control my own thoughts.","I repeatedly check doors, windows,drawer etc.","I get upset when others change the way i have arrange things.","I feel i have to repeat certain numbers.","I sometimes have to wash or clean myself simply because i feel contaminated.","I am upset by unpleasent thoughts that come into my mind against my will.","I avoid throwing things away because i am afraid i might need them later.","I need things to be arranged in a particular ways."]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];
