@@ -1,4 +1,4 @@
-var questions = ["I have saved up so many things that they get in the way.","I check things more often than necessary.","I get upset if objects are not arranged properly.","I feel compelled to count while I am doing things.","I find it difficult to touch an object when I know it has been touched by strangers or certain people.","I find it difficult to control my own thoughts.","I repeatedly check doors, windows,drawer etc.","I get upset when others change the way i have arrange things.","I feel i have to repeat certain numbers.","I sometimes have to wash or clean myself simply because i feel contaminated.","I am upset by unpleasent thoughts that come into my mind against my will.","I avoid throwing things away because i am afraid i might need them later.","I need things to be arranged in a particular ways."]
+var questions = ["Any reminder brought back feelings about the event/s2","I had trouble staying asleep","Other things kept making me think about it","I felt irritable and angry","I avoided letting myself get upset when I thought about it or was reminded of it","I thought about the event when I didn't mean to","I felt as if the event hadn't happened or it wasn't real","I have stayed away from reminders about the situation","Images and pictures of the event pop into my mind","I have tried not to think about the situation","I am aware I have a lot of feelings about what happened but I haven’t dealt with them","I feel quite ‘numb’ about the situation"]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];
@@ -93,13 +93,13 @@ function next() {
         result.style.display = "block"; 
         if (score < 15) {
             // alert("You are sad And everything will be fine!");
-            message.innerText = "Little to Moderate OCD disorder";
+            message.innerText = "Little to Moderate PSTD disorder";
             suggestions.innerText = "Your Score: " + "("+ score+"/60)";
 
             
         }if (score < 50) {
             // alert("You are depressed and you should seek for proffessional guidance");
-            message.innerText = "Moderate to severe OCD disorder";
+            message.innerText = "Moderate to severe PSTD disorder";
             suggestions.innerText = "Your Score: " + "("+ score+"/60)";
         }
         // alert("You are depersed by Score: "+ score);
