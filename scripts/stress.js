@@ -1,12 +1,4 @@
-var questions = ["I find it difficult finishing a task or project", "If a task or project requires a lot of thought I will often delay in getting it started", 
-"I find it difficult to sit still and often fidget or squirm",
-"I would describe myself as being ‘on the go’ and feel compelled to do things, as if driven by a motor’",
-"I find it hard to remain focused in group settings",
-"My mind feels very cluttered and it is hard for me to concentrate on one thing at a time",
-"I make decisions quickly and fail to think through the consequences",
-"I am often irritable, with a short fuse",
-"I have mood swings, sometimes feeling quite high, other times low",
-"I often miss what is being said to me in conversations"]
+var questions = ["I have found myself getting upset by quite trival things","I have been aware of dryness of my mouth ","I have experienced breathing difficulties","I have tended to overreact to situations","I have felt shakey -like my legs are going to give away","I have found myself getting upset easily","I have found myself getting impatient when I have been delayed in any way ","I have experienced sweaty palms or perspiration for no physical reasons","I have felt scared or nervous for no good reasons","I have been aware of my heart rate, even when I am not exercising","I have been very irritable","I have been closer to panic"]
 var desc = ["This feelings have symptoms", "Please describe your personality"];
 var mental = ["Depression","Schizophrenia", "Bipolar disorder", "Obsessive compulsive disorder ( OCD)", "Panic disorder", "Post traumatic stress (PTSD)", "Borderline personality disorder]"];
 // var mental = ["Schizophrenia", "Panic Disorder", "Obbesive Compulsive Disorder"];
