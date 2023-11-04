@@ -99,18 +99,18 @@ function next(val) {
         var totalScore = questions.length * 8;
         if (score < 40) {
             // alert("You are sad And everything will be fine!");
-            message.innerText = "Little to Moderate ADHD disorder : "+ "("+ score+"/"+ totalScore +")";
+            message.innerText = "Little to Moderate "+ type +" disorder : "+ "("+ score+"/"+ totalScore +")";
             progress_perc.innerText = (score/totalScore)*100;
             progress_bar.style.width = ((score/totalScore)*100)+"%";
             // progress_perc.innerText = "Your Score: " + "("+ score+"/"+ totalScore +")";
             
         }if (score < 65) {
             // alert("You are depressed and you should seek for proffessional guidance");
-            message.innerText = "Moderate to severe ADHD disorder: "+ "("+ score+"/"+ totalScore +")";
+            message.innerText = "Moderate to severe "+ type +" disorder: "+ "("+ score+"/"+ totalScore +")";
             progress_perc.innerText = (score/totalScore)*100;
             progress_bar.style.width = ((score/totalScore)*100)+"%";
         }else{
-            message.innerText = "Severe ADHD disorder: "+ "("+ score+"/"+ totalScore +")";
+            message.innerText = "Severe "+ type +" disorder: "+ "("+ score+"/"+ totalScore +")";
             progress_perc.innerText = (score/totalScore)*100;
             progress_bar.style.width = ((score/totalScore)*100)+"%";
             resultSuggest.innerHTML = "You should consult to specialist Soon as Possible";

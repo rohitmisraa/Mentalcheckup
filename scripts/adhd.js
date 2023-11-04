@@ -26,7 +26,7 @@ var score = 0;
 changeQN(0);
 function changeQN(index) {
     qnblock.innerHTML =
-    `<h1 class="text-xl font-medium title-font mb-4 text-gray-900">${questions[index]}</h1>`
+    `<h1 class="text-2xl font-medium title-font mb-4 text-gray-900">${questions[index]}</h1>`
 }
 
 var st1block = document.getElementById("st1-block");

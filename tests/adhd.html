@@ -8,7 +8,7 @@
     <title>MentalCheckUp</title>
 </head>
 
-<body class="p-0 m-0">
+<body class="p-0 m-0 bg-[#d3fab1]">
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -35,8 +35,11 @@
     <section class="text-gray-600 body-font">
 
         <div class="container py-10 mx-auto flex flex-wrap flex-col">
-            <h1 class="text-center text-2xl mb-10">ADHD Test</h1>
-            <div id="qnlist" class="flex mx-auto flex-wrap mb-10 hiddsen">
+            <div class="w-max mx-auto p-10 shadow-md bg-white">
+
+            
+            <h1 class="text-center text-2xl mb-20">ADHD Test</h1>
+            <div id="qnlist" class="flex mx-auto flex-wrap mb-10 hiddsen border">
                 <a
                     class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 text-gray-900 tracking-wider rounded-t">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -58,7 +61,7 @@
                 </div>
             </div>
             <div id="step2" class="flex flex-col text-center w-full ">
-                <div id="qnblock">
+                <div id="qnblock" class="">
                     qn block
                 </div>
 
@@ -176,6 +179,7 @@
 
                 </div>
             </div>
+        </div>
 
             <div id="model" class="bg-gray-100 h-screen w-screen fixed top-0 hidden">
                 <div id="consultModel" class="w-[700px] h-[90vh] mt-[5vh] bg-white mx-auto p-4 shadow-md hidden">
@@ -339,6 +343,8 @@
             "I am often irritable, with a short fuse",
             "I have mood swings, sometimes feeling quite high, other times low",
             "I often miss what is being said to me in conversations"]
+
+        var type = "ADHD";
 
     </script>
     <script src="/scripts/script.js"></script>

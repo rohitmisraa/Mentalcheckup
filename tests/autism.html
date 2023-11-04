@@ -8,7 +8,7 @@
     <title>MentalCheckUp</title>
 </head>
 
-<body class="p-0 m-0">
+<body class="p-0 m-0 bg-[#d3fab1]">
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -35,6 +35,7 @@
     <section class="text-gray-600 body-font">
 
         <div class="container py-10 mx-auto flex flex-wrap flex-col">
+            <div class="w-max mx-auto p-10 shadow-md bg-white">
             <h1 class="text-center text-2xl mb-10 "><b>Autism Test</b></h1>
             <div id="qnlist" class="flex mx-auto flex-wrap mb-10 hiddsen">
                 <a
@@ -72,7 +73,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="result" class=" mx-auto hidden ">
                 <div class="w-screen py-10 bg-blue-600">
                         <p class="text-lg text-white w-[800px] mx-auto">The questions are based on the "Autism Test" rating scale and should only be useed as an indicator of wheather you may be at risk of having or developing a Autism. They are not intended to replace a professional diagnosis.</p>
@@ -162,6 +162,7 @@
 
                 </div>
             </div>
+        </div>
 
             <div id="model" class="bg-gray-100 h-screen w-screen fixed top-0 hidden">
                 <div id="consultModel" class="w-[700px] h-[90vh] mt-[5vh] bg-white mx-auto p-4 shadow-md hidden">
@@ -179,22 +180,22 @@
                     <div class=" flex px-2">
                         <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
                         <div>
-                            <h3 class="text-2xl pl-6">NIDRA YOGA</h3>
-                            <p class="pl-6">Yoga Nidra is a deep relaxation practice that can help children with ADHD
-                                manage stress and anxiety effectively</p>
-                            <p class="pl-6">Yoga nidra allows you to access delta brainwaves, which are responsible for
-                                the healing and restoration that happens in your body during deep sleep</p>
+                            <h3 class="text-2xl pl-6">BALANCING POSES</h3>
+                            <p class="pl-6">Strengthens lower body, ankles, legs, glutes. </p>
+                            <p class="pl-6">It Supports good posture & core muscles.</p>
                         </div>
                     </div>
                     <div class=" flex px-2">
                         <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
                         <div>
-                            <h3 class="text-2xl pl-6">ASHTANGA YOGA</h3>
-                            <p class="pl-6">It helps to improve your overall wellness by improving your posture, help
-                                you breathe better and also improve your concentration skills.</p>
-                            <p class="pl-6">It also helps to better your self-esteem.</p>
-                            <p class="pl-6">It makes your muscles strong and improves the strength of your leg and core
-                                muscles.</p>
+                            <h3 class="text-2xl pl-6">STANDING POSES</h3>
+                            <p class="pl-6"> The standing asanas are the yoga poses or asanas with one or both feet on the ground.
+
+                            </p>
+                            <p class="pl-6">Standing poses are great for strengthening your lower body, particularly your ankles, glutes, hamstrings, 
+                                and quads
+                                 </p>
+                            
                         </div>
                     </div>
                 </div>
@@ -204,59 +205,29 @@
                     <div class=" flex px-2">
                         <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
                         <div>
-                            <h3 class="text-2xl pl-6">MORNING WALK</h3>
-                            <p class="pl-6">Lower the risk of heart disease, stroke, diabetes, and certain types of cancer.</p>
-                            <p class="pl-6">Clear your mind.</p>
-                            <p class="pl-6">Lower blood pressure.</p>
-                            <p class="pl-6">Improve memory and lower your risk of dementia.</p>
-                            <p class="pl-6">Boost your mental and emotional health.</p>
+                            <h3 class="text-2xl pl-6">BEAR  CRAWLS </h3>
+                            <p class="pl-6">It help develop body awareness, improve coordination and motor planning, and build strength in the trunk and upper body.</p>
+                            <p class="pl-6">Start by kneeling on all fours, with hands under shoulders and knees under hips.
+                            </p>
+                            <p class="pl-6">Extend legs until slightly bent. Spread your fingers wide to have optimal contact with the floor.
+                            </p>
+                           
                         </div>
                     </div>
-                    <div class=" flex px-2">
-                        <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
-                        <div>
-                            <h3 class="text-2xl pl-6">AEROBIC EXERCISE</h3>
-                            <p class="pl-6">Increase your stamina, fitness and strength.</p>
-                            <p class="pl-6">Ward off viral illnesses.</p>
-                            <p class="pl-6">Reduce your health risks.</p>
-                            <p class="pl-6">Manage chronic conditions.</p>
-                            <p class="pl-6">Keep your arteries clear.</p>
-                        </div>
-                    </div>
-                    <div class=" flex px-2">
-                        <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
-                        <div>
-                            <h3 class="text-2xl pl-6">STRENGTH TRAINING</h3>
-                            <p class="pl-6">Increases lean muscle mass and strength.</p>
-                            <p class="pl-6">Strengthens bones.</p>
-                            <p class="pl-6">Reduces your risk of injury.</p>
-                            <p class="pl-6">Lowers your risk of chronic diseases.</p>
-                        </div>
-                    </div>
-                </div>
+                 
                 <div id="meditationModel" class="w-[700px] h-[90vh] mt-[5vh] bg-white mx-auto p-4 shadow-md hidden">
                     <button class="float-right" onclick="closeModel()">X</button>
                     <h2 class="text-2xl text-center">MEDITATION</h2>
                     <div class=" flex px-2">
                         <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
                         <div>
-                            <h3 class="text-2xl pl-6">MINDFULNESS MEDITATION</h3>
-                            <p class="pl-6">Decreased Depression.</p>
-                            <p class="pl-6">Increased Emotional Regulation.</p>
-                            <p class="pl-6">Reduced Anxiety and Stress.</p>
-                            <p class="pl-6">Cognitive Improvements.</p>
-                            <p class="pl-6">Stronger Relationships.</p>
+                            <h3 class="text-2xl pl-6">SOUND MEDIATION</h3>
+                            <p class="pl-6">sound meditation can help create a meditative state, allowing for a more profound connection to the present moment that strengthens the more you practice it. </p>
+                            <p class="pl-6">A regular sound meditation practice can lead to increased self-awareness, emotional regulation, and overall well-being.</p>
+                            
                         </div>
                     </div>
-                    <div class=" flex px-2">
-                        <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
-                        <div>
-                            <h3 class="text-2xl pl-6">SPIRITUAL MEDITATION</h3>
-                            <p class="pl-6">Spiritual meditation releases and settles our thoughts and emotions.</p>
-                            <p class="pl-6">It relaxes your nervous system and helps your body unwind from stress.</p>
-                            <p class="pl-6">It helps you to let go of the past and sink in peace.</p>
-                        </div>
-                    </div>
+                   
                     <div class=" flex px-2">
                         <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
                         <div>
@@ -273,30 +244,17 @@
                     <div class=" flex px-2">
                         <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
                         <div>
-                            <p class="pl-6">Water. Drink 8 to 12 cups of water daily.</p>
-                            <p class="pl-6">Dark Green Vegetables. Eat dark green vegetables at least three to four times a week.</p>
-                            <p class="pl-6">Whole Grains. Eat whole grains sat least two or three times daily. </p>
-                            <p class="pl-6">Beans and Lentils. Try to eat a bean-based meal at least once a week. </p>
+                            <p class="pl-6">Healthy eating in childhood helps to set up good habits for life.</p>
+                            <p class="pl-6">This is especially important for children with autism spectrum disorder (ASD) who have an increased risk for excessive weight gain, selective eating and nutrient deficiencies</p>
+                           
                         </div>
                     </div>
                     
                 </div>
-                <div id="musicModel" class="w-[700px] h-[90vh] mt-[5vh] bg-white mx-auto p-4 shadow-md hidden">
-                    <button class="float-right" onclick="closeModel()">X</button>
-                    <h2 class="text-2xl text-center">Healthy Meal</h2>
-                    <div class=" flex px-2">
-                        <img class="h-28" src="/assets/hathayoga.svg" alt="yoga">
-                        <div>
-                            <p class="pl-6">Water. Drink 8 to 12 cups of water daily.</p>
-                            <p class="pl-6">Dark Green Vegetables. Eat dark green vegetables at least three to four times a week.</p>
-                            <p class="pl-6">Whole Grains. Eat whole grains sat least two or three times daily. </p>
-                            <p class="pl-6">Beans and Lentils. Try to eat a bean-based meal at least once a week. </p>
-                        </div>
-                    </div>
-                    
-                </div>
+                
 
             </div>
+        </div>
         </div>
     </section>
 
@@ -305,8 +263,10 @@
     <!-- <script type="text/javascript" src="/scripts/adhd.js"></script> -->
     <script>
        var questions = ["I prefer to do things on my own, rather than with others.","I prefer doing things the same way  for instance my morning routine or trip to the supermarket","I find myself becoming strongly absorbed in something even obsessional","I am very sensitive to noise and will wear earplugs or cover my ears in certain situations","Sometimes people say I am being rude, even though I think I am being polite.","I find it easy to imagine what characters from a book might look like.","I find it easy to talk in groups of people","I am more interested in finding out about ‘things’ than people", "I find numbers, dates and strings of information fascinating"]
+        var type = "Autism";
     </script>
     <script src="/scripts/script.js"></script>
+    <script src="/scripts/solution.js"></script>
 </body>
 
 </html>

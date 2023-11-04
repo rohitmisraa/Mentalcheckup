@@ -8,7 +8,7 @@
     <title>MentalCheckUp</title>
 </head>
 
-<body class="p-0 m-0">
+<body class="p-0 m-0 bg-[#d3fab1]">
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -35,6 +35,7 @@
     <section class="text-gray-600 body-font">
 
         <div class="container py-10 mx-auto flex flex-wrap flex-col">
+            <div class="w-max mx-auto p-10 shadow-md bg-white">
             <h1 class="text-center text-2xl mb-10"><b>PTSD Test</b></h1>
             <div id="qnlist" class="flex mx-auto flex-wrap mb-10 hiddsen">
                 <a
@@ -72,7 +73,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="result" class=" mx-auto hidden ">
                 <div class="w-screen py-10 bg-blue-600">
                     <p class="text-lg text-white w-[800px] mx-auto">The questions are based on the "PTSD Test" rating scale and should only be useed as an indicator of wheather you may be at risk of having or developing a PTSD. They are not intended to replace a professional diagnosis.</p>
@@ -162,6 +162,7 @@
 
                 </div>
             </div>
+        </div>
 
             <div id="model" class="bg-gray-100 h-screen w-screen fixed top-0 hidden">
                 <div id="consultModel" class="w-[700px] h-[90vh] mt-[5vh] bg-white mx-auto p-4 shadow-md hidden">
@@ -305,9 +306,11 @@
     <!-- <script type="text/javascript" src="/scripts/adhd.js"></script> -->
     <script>
         var questions = ["Any reminder brought back feelings about the event/s2","I had trouble staying asleep","Other things kept making me think about it","I felt irritable and angry","I avoided letting myself get upset when I thought about it or was reminded of it","I thought about the event when I didn't mean to","I felt as if the event hadn't happened or it wasn't real","I have stayed away from reminders about the situation","Images and pictures of the event pop into my mind","I have tried not to think about the situation","I am aware I have a lot of feelings about what happened but I haven’t dealt with them","I feel quite ‘numb’ about the situation"]
+        var type = "PTSD";
 
      </script>
      <script src="/scripts/script.js"></script>
+     <script src="/scripts/solution.js"></script>
 
 </body>
 
