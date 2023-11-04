@@ -69,6 +69,9 @@ questions.forEach(function question(value, index) {
 
 st1bar.innerHTML = stpbardata;
 
+
+
+
 changestep();
 function changestep() {
     if (step <= questions.length) {
